@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="./medias/img/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+	 <link href="./medias/css/index.css" rel="stylesheet">
+    
+    <title>Drumscript</title>
+  </head>
+  <body>
+
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+
+    <div id="container">
+      <div class="title">
+        <h1>DrumScript</h1>
+        <p> Press key to play sound </p>
+      </div>
+
+      <div class="items-container">
+        <div class="item" data-key="65">
+          <kbd>A</kbd>
+          <span>Crash</span>
+        </div>
+
+        <div class="item" data-key="90">
+          <kbd>Z</kbd>
+          <span>Hi-Hat</span>
+        </div>
+
+        <div class="item" data-key="69">
+          <kbd>E</kbd>
+          <span>Kick</span>
+        </div>
+
+        <div class="item" data-key="73">
+          <kbd>I</kbd>
+          <span>Shakr</span>
+        </div>
+
+        <div class="item" data-key="79">
+          <kbd>O</kbd>
+          <span>Snare</span>
+        </div>
+
+        <div class="item" data-key="80">
+          <kbd>P</kbd>
+          <span>Tom</span>
+        </div>
+      </div>
+    </div>
+
+    <audio data-key="65" src="./medias/sounds/Crash.wav"></audio>
+    <audio data-key="90" src="./medias/sounds/HiHat.wav"></audio>
+    <audio data-key="69" src="./medias/sounds/Kick.wav"></audio>
+    <audio data-key="73" src="./medias/sounds/Shakr.wav"></audio>
+    <audio data-key="79" src="./medias/sounds/Snare.wav"></audio>
+    <audio data-key="80" src="./medias/sounds/Tom.wav"></audio>
+
+
+	<script src="./medias/js/index.js"></script>
+  </body>
+</html>
